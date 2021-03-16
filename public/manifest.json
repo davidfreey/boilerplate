@@ -1,0 +1,20 @@
+{
+  "name": "Cefalia X  - Boilerplate",
+  "short_name": "Cefalia",
+  "icons": [
+    {
+      "src": "/img/favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/cefalia.svg",
+      "type": "image/svg",
+      "sizes": "512x512"
+    }
+  ],
+  "theme_color": "#06092B",
+  "background_color": "#06092B",
+  "description": "Boilerplate utilizando Typescript, React, NextJS e Styled Components!",
+  "start_url": "/"
+}

@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "regenerator": true,
+        "corejs": 3
+      }
+    ],
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true
+      }
+    ]
+  ],
+  "presets": [ "@babel/preset-react", "next/babel", "@babel/preset-typescript", "@babel/preset-env"]
+}
